@@ -1633,7 +1633,7 @@ img {
 
 @media (min-width: 1200px) {
   .video__object {
-    width: auto;
+    width: 100%;
     height: 292px;
     -webkit-border-radius: 16px;
             border-radius: 16px;
@@ -2666,7 +2666,7 @@ img {
 .car__in {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -2678,6 +2678,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .car__back {
