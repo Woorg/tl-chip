@@ -1,0 +1,41 @@
+.filter
+    &__field
+        position: relative
+        margin-right: 16px
+        margin-bottom: 0
+        width: 100%
+
+        &:last-child
+            margin-right: 0
+
+        &:after
+            position: absolute
+            top: 50%
+            right: 12px
+            width: 14px
+            height: 7px
+            content: ''
+            pointer-events: none
+            background: url('../images/general/dropdown-arrow.svg') 0 0 no-repeat
+            background-size: cover
+            transform: translateY(-50%)
+
+    &__field_1
+        width: 96px
+
+    &__field_2
+        width: 112px
+
+    &__field_3
+        width: 172px
+
+    &__select
+        border: none
+        height: 48px
+        background-color: #ffffff
+        font-size: 14px
+        font-weight: 600
+        text-overflow: ellipsis
+        box-shadow: 0 2px 24px rgba(0, 0, 0, 0.08), 0 0 2px rgba(0, 0, 0, 0.08)
+        // option
+        //     width: 150vw
